@@ -1,0 +1,69 @@
+# ----------------------------
+# Terraform
+# ----------------------------
+
+.terraform/
+.terraform.lock.hcl
+
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+*.tfplan
+
+# ----------------------------
+# Sensitive variable files
+# ----------------------------
+
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# ----------------------------
+# Lambda build artifacts
+# ----------------------------
+
+*.zip
+
+# ----------------------------
+# Python
+# ----------------------------
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.env
+venv/
+.envrc
+
+# ----------------------------
+# OS / editor files
+# ----------------------------
+
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+
+# ----------------------------
+# Logs
+# ----------------------------
+
+*.log
+
+# ----------------------------
+# AWS credentials
+# ----------------------------
+
+.aws/
